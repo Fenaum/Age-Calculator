@@ -1,0 +1,93 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 100px 100px;
+    background-color: lightgrey;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+main {
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    background-color: white;
+    padding: 30px 0px 0px 0px;
+    border-radius: 15px 15px 20% 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: -50px;
+}
+
+label {
+    color: #63605f;  
+    font-weight: bold; 
+    font-size: 9px;
+    padding-bottom: 5px
+}
+
+form {
+    display: flex;
+    width: 40vw;
+    height: 30vh;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: -200px;
+}
+
+.inputs {
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column
+}
+
+input {
+    width: 80px; /* Adjust the width of the input fields */
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+#submit-btn {
+    background-image: url('./assets/images/icon-arrow.svg');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #6b42db;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+}
+
+#submit-btn:hover {
+    background-color: black; /* Change the background color on hover */
+}
+
+.results {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+.results > h1 {
+    margin: -20px
+}
+
+.output {
+    color: #6b42db;
+}
